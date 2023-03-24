@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{34FA6360-4C84-3DDB-A3A8-39418FDE3DA5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\src;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\include;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\src;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\include;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\src;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\include;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\src;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\include;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0 -BC:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0/build --check-stamp-file C:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\FreeGLUTConfig.cmake.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\3.25.0-rc4\CMakeCCompiler.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\3.25.0-rc4\CMakeRCCompiler.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\3.25.0-rc4\CMakeSystem.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\config.h.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\freeglut.pc.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\freeglut.rc.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0 -BC:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0/build --check-stamp-file C:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\FreeGLUTConfig.cmake.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\3.25.0-rc4\CMakeCCompiler.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\3.25.0-rc4\CMakeRCCompiler.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\3.25.0-rc4\CMakeSystem.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\config.h.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\freeglut.pc.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\freeglut.rc.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0 -BC:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0/build --check-stamp-file C:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\FreeGLUTConfig.cmake.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\3.25.0-rc4\CMakeCCompiler.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\3.25.0-rc4\CMakeRCCompiler.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\3.25.0-rc4\CMakeSystem.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\config.h.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\freeglut.pc.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\freeglut.rc.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0 -BC:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0/build --check-stamp-file C:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\FreeGLUTConfig.cmake.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\3.25.0-rc4\CMakeCCompiler.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\3.25.0-rc4\CMakeRCCompiler.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\3.25.0-rc4\CMakeSystem.cmake;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\config.h.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\freeglut.pc.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\freeglut.rc.in;C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\ZERO_CHECK.vcxproj">
+      <Project>{A222139B-F670-32BC-AA35-3AB00DE8972E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\3dview.vcxproj">
+      <Project>{4E47F3D6-C63F-39C5-BD83-6C7001FF1CAE}</Project>
+      <Name>3dview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\3dview_static.vcxproj">
+      <Project>{3E190E7A-6E11-38C9-B86E-B7418BEAE7F8}</Project>
+      <Name>3dview_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CallbackMaker.vcxproj">
+      <Project>{A2998458-4751-33E9-A165-C6AB4C956763}</Project>
+      <Name>CallbackMaker</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CallbackMaker_static.vcxproj">
+      <Project>{40C1EB38-B114-3F8F-AF1C-070320A54926}</Project>
+      <Name>CallbackMaker_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\Fractals.vcxproj">
+      <Project>{BAAE5D7E-5F29-3112-817B-D11B380C2D0B}</Project>
+      <Name>Fractals</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\Fractals_random.vcxproj">
+      <Project>{3CCB12D7-4084-3E06-98E1-989BE5F4259C}</Project>
+      <Name>Fractals_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\Fractals_random_static.vcxproj">
+      <Project>{9A5DBF02-018C-3AE9-85FA-5B1D527BDDF6}</Project>
+      <Name>Fractals_random_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\Fractals_static.vcxproj">
+      <Project>{B75557D7-8D15-3ACC-82C7-F8C87A145A34}</Project>
+      <Name>Fractals_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\Lorenz.vcxproj">
+      <Project>{9F4FCC2D-3C29-3FCC-8EE1-CDAD50AF7C8C}</Project>
+      <Name>Lorenz</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\Lorenz_static.vcxproj">
+      <Project>{741456EF-A411-3FCF-B149-DFA95C6FA604}</Project>
+      <Name>Lorenz_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\One.vcxproj">
+      <Project>{1AF58421-9040-3D6B-BADF-F06C0F0A85F1}</Project>
+      <Name>One</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\One_static.vcxproj">
+      <Project>{D2E86583-1B3C-3FDF-B16C-D7FF45184DB3}</Project>
+      <Name>One_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\freeglut.vcxproj">
+      <Project>{BDAD2EE1-B38D-3861-9D14-91A23F3A8A1D}</Project>
+      <Name>freeglut</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\freeglut_static.vcxproj">
+      <Project>{F1E99345-3DE9-3078-A3C1-F2F254123ED4}</Project>
+      <Name>freeglut_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\indexed_color.vcxproj">
+      <Project>{18E9DD03-7890-39CD-87FB-1538B65D33FA}</Project>
+      <Name>indexed_color</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\indexed_color_static.vcxproj">
+      <Project>{B0E14040-2859-3165-A803-707CD731D8F0}</Project>
+      <Name>indexed_color_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\joystick.vcxproj">
+      <Project>{5DC627D2-B60A-3DEB-B6B7-30B5BA493CDC}</Project>
+      <Name>joystick</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\joystick_static.vcxproj">
+      <Project>{9F2ABAB3-D58A-3243-8AD3-F5376FD80D71}</Project>
+      <Name>joystick_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\keyboard.vcxproj">
+      <Project>{1892216D-B1FE-3FF0-B4FF-F734A551126F}</Project>
+      <Name>keyboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\keyboard_static.vcxproj">
+      <Project>{FFF2EB68-DCC0-391C-B489-D638FC239A27}</Project>
+      <Name>keyboard_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\multi-touch.vcxproj">
+      <Project>{DBA213D6-1768-3461-91E3-2FCCB58BD36F}</Project>
+      <Name>multi-touch</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\multi-touch_static.vcxproj">
+      <Project>{4E4F621D-0152-3351-8CA3-68DBB6A8EEBA}</Project>
+      <Name>multi-touch_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\resizer.vcxproj">
+      <Project>{FEF34658-3303-3076-A69B-B726D2E3A7AF}</Project>
+      <Name>resizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\resizer_static.vcxproj">
+      <Project>{00BA7093-7F78-32E4-8DB9-FD38924F092C}</Project>
+      <Name>resizer_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\shapes.vcxproj">
+      <Project>{81CDA55D-9D0C-38D6-93CD-609D1FCD1E96}</Project>
+      <Name>shapes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\shapes_static.vcxproj">
+      <Project>{D5D84D74-7B51-3BFF-9723-479B38F5B53B}</Project>
+      <Name>shapes_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\smooth_opengl3.vcxproj">
+      <Project>{212DC0C6-57A3-3A19-A2C8-6FAEB013CF5C}</Project>
+      <Name>smooth_opengl3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\smooth_opengl3_static.vcxproj">
+      <Project>{9A698D24-EE21-394A-A006-2C42CFB1BE78}</Project>
+      <Name>smooth_opengl3_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\spaceball.vcxproj">
+      <Project>{3E205A6B-6481-3265-94A8-642E01DEE52E}</Project>
+      <Name>spaceball</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\spaceball_static.vcxproj">
+      <Project>{3764D457-9C9E-3429-9C44-8CE650701D68}</Project>
+      <Name>spaceball_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\subwin.vcxproj">
+      <Project>{64787EDC-2EFC-33D0-B05A-1FD85E450524}</Project>
+      <Name>subwin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\subwin_static.vcxproj">
+      <Project>{BAD9E420-B3F1-39E8-ACF3-A1080ABF939F}</Project>
+      <Name>subwin_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\timer.vcxproj">
+      <Project>{D0E4D1A7-D1BF-3880-92B6-FA3602610077}</Project>
+      <Name>timer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\timer_callback.vcxproj">
+      <Project>{2FD5D3FF-9F10-390F-8568-A3EEB07EAD49}</Project>
+      <Name>timer_callback</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\timer_callback_static.vcxproj">
+      <Project>{8B8C9C3F-B4EC-39D1-9045-86793DD85612}</Project>
+      <Name>timer_callback_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\timer_static.vcxproj">
+      <Project>{911934CA-C1BA-3CB2-BE24-8A822A6DCC90}</Project>
+      <Name>timer_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

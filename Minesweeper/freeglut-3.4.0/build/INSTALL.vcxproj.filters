@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\CMakeFiles\3196850f88ea5f9cafdbc8441b363dc9\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{24551FF7-3A45-3A33-9D44-F24198D7A850}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

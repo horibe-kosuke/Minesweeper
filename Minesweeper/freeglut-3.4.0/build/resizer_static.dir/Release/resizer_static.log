@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/k2002/source/repos/Collision/Collision/freeglut-3.4.0/CMakeLists.txt
+  resizer.c
+C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\progs\demos\resizer\resizer.c(159,40): warning C4113: 'void (__cdecl *)()' はパラメーター リストが 'void (__cdecl *)(void)' と異なります。
+  resizer_static.vcxproj -> C:\Users\k2002\source\repos\Collision\Collision\freeglut-3.4.0\build\bin\Release\resizer_static.exe

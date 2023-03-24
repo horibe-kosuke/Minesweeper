@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output ディレクトリの末尾がスラッシュではありません。Output ディレクトリが適切に評価されるようにするために、このビルド インスタンスによってスラッシュが追加されます。
+  main.cpp
+C:\Users\k2002\source\repos\Minesweeper\Minesweeper\main.cpp(82,35): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\k2002\source\repos\Minesweeper\Minesweeper\main.cpp(82,21): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  Minesweeper.vcxproj -> C:\Users\k2002\source\repos\Minesweeper\Minesweeper\freeglut-3.4.0\build\bin\Debug\Minesweeper.exe
